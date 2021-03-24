@@ -1,5 +1,5 @@
 html {
-  font: 100%/1.5 sans-serif;
+  font: 100%/1 sans-serif;
 }
 
 body {
@@ -12,12 +12,12 @@ body {
 }
 
 p {
-  font: 1.05em/1.5 sans-serif;
+  font: 1.05em/1 sans-serif;
 }
 
 @media (min-width: 48em) {
   body {
-    font-size: 125%;
+    font-size: 100%;
   }
   
   nav ul {
