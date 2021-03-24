@@ -16,9 +16,11 @@ body {
 
 p {
   font: 1.05em/1 Georgia;
+  font-color: #F5DABA
 }
 h3 {
   font-size: 1em
+  font-color: #F5DABA
 }
 
 @media (min-width: 48em) {
