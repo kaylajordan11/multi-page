@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 125%
-  font-color: 000;
+  font-color: #F5DABA;
   background-color: #2C657b;
   max-width: 48em;
   padding: 0 1rem;
@@ -27,6 +27,7 @@ h3 {
   }
   
   nav ul {
+    font-color: #F5DABA
     display: grid;
     grid-auto-flow: column;
     justify-content: start;
