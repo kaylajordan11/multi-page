@@ -59,6 +59,20 @@ ul.topnav li.right {float: right;}
   
   a:link {
   text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  }
+  
+  a:visited {
+    color: #000;
+  }
+  
+  a:hover {
+    background-color: #e6e6fa;
+  }
+  
+  a:active {
+    color: #000;
   }
   
   
