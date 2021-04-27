@@ -20,9 +20,9 @@ h1 {
   
 }
 
-@media (min-width: 48em) {
+@media (min-width: 60) {
  ul.topnav li.right;
- ul.topnav li {float: none}
+ ul.topnav li 
  body {
  font-size: 100%;
   }
