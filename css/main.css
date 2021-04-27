@@ -19,52 +19,38 @@ h1 {
   text-align: center;
   
 }
+/**/
 
-@media (min-width: 60) {
- body {
-   font-size:125%;
-  }
-  
-  nav ul {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center; 
-    gap: 1rem;
-    display: inline-grid;
-  }
-
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #99994d;
 }
-  ul.topnav {
-    list-style-type: none;
-    margin: 1em;
-    padding: 1em;
-    overflow: hidden;
-    background-color: #FFCCE5;
-  }
-    
+
 ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: #000;
+  color: #f5f5f0;
   text-align: center;
-  padding: 16px 18px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #e6e6fa;}
+ul.topnav li a:hover:not(.active) {background-color: #7a7a52;}
 
-ul.topnav li a.active {background-color: #e6e6fa;}
+ul.topnav li a.active {background-color: #99994d;}
 
 ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
   
-  nav ul {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    gap: 1em 1em;
-  }
-  
+/**/
   a:link {
   text-decoration: none;
   color: #000;
