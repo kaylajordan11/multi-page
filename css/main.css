@@ -21,6 +21,10 @@ h1 {
   
 }
 
+li {
+font: 1.05em/1 Georgia;
+}
+
 @media (min-width: 48em) {
  ul.topnav li.right
  ul.topnav li {float: none}
