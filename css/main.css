@@ -34,7 +34,7 @@ h3 {
   nav ul {
     display: grid;
     grid-auto-flow: column;
-    justify-content: start; /* Alignment: start (left), center (center), end (right).*/
+    justify-content: center; 
     gap: 1rem;
   }
 
