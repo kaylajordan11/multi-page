@@ -30,6 +30,7 @@ h1 {
     grid-auto-flow: column;
     justify-content: center; 
     gap: 1rem;
+    display: inline-grid;
   }
 
 }
