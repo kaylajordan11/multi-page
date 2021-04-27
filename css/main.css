@@ -15,16 +15,14 @@ p {
   line-height: 2em;
 }
 h1 {
-  font-size: 5em;
+  font-size: 7em;
   text-align: center;
   
 }
 
 @media (min-width: 60) {
- ul.topnav li.right;
- ul.topnav li 
  body {
- font-size: 100%;
+   font-size:125%;
   }
   
   nav ul {
