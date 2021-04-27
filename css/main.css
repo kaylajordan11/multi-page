@@ -25,7 +25,9 @@ h3 {
 }
 
 @media (min-width: 48em) {
-  body {
+ ul.topnav li.right
+ ul.topnav li {float: none}
+ body {
     font-size: 100%;
   }
   
