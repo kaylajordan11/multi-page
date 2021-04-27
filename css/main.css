@@ -26,22 +26,22 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #99994d;
+  background-color: #FFCCE5;
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: #f5f5f0;
+  color: #000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #7a7a52;}
+ul.topnav li a:hover:not(.active) {background-color: #FFCCE5;}
 
-ul.topnav li a.active {background-color: #99994d;}
+ul.topnav li a.active {background-color: #e6e6fa;}
 
 ul.topnav li.right {float: right;}
 
