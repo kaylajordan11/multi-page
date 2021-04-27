@@ -21,10 +21,6 @@ h1 {
   
 }
 
-li {
-font: 1.05em/1 Georgia;
-}
-
 @media (min-width: 48em) {
  ul.topnav li.right;
  ul.topnav li {float: none}
@@ -99,4 +95,8 @@ img {
 width: auto;
 max-width: 50%;
 height: auto;
+}
+
+li {
+font: 1.05em/1 Georgia;
 }
