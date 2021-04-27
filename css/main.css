@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 125%
-  font-color: #F5DABA;
+  color: #F5DABA;
   background-color: #E0FFFF;
   max-width: 48em;
   padding: 0 1rem;
@@ -13,12 +13,10 @@ body {
 
 p {
   font: 1.05em/1 Georgia;
-  font-color: #F5DABA
   line-height: 1em;
 }
 h3 {
   font-size: 5em;
-  font-color: #F5DABA;
   font-family: "Dela Gothic One";
   text-align: center;
   
@@ -41,8 +39,8 @@ h3 {
 }
   ul.topnav {
     list-style-type: none;
-    margin: 1;
-    padding: 1;
+    margin: 1em;
+    padding: 1em;
     overflow: hidden;
     background-color: #FFCCE5;
   }
@@ -67,7 +65,7 @@ ul.topnav li.right {float: right;}
     display: grid;
     grid-auto-flow: column;
     justify-content: start;
-    gap: 1 1em;
+    gap: 1em 1em;
   }
   
   a:link {
